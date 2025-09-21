@@ -1,9 +1,9 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
-// PASO 1: Crear un array para almacenar los nombres
+//1.- Crear un array para almacenar los nombres
 let amigos = [];
 
-// PASO 2: Implementa una función para agregar amigos
+//2.- Función para agregar amigos
 function agregarAmigo() {
 
     // 2.1. Capturar el valor del campo de entrada
@@ -25,7 +25,7 @@ function agregarAmigo() {
     mostrarLista();
 }
 
-// PASO 3: Implementa una función para actualizar la lista de amigos
+// 3.- Implementa una función para actualizar la lista de amigos
 function mostrarLista() {
 
     // 3.1. Obtener el elemento de la lista
@@ -42,7 +42,7 @@ function mostrarLista() {
     }
 }
 
-// PASO 4: Implementa una función para sortear los amigos
+// 4.- Implementa una función para sortear los amigos
 function sortearAmigo() {
     let resultado = document.getElementById("resultado");
 
@@ -63,4 +63,5 @@ function sortearAmigo() {
     amigos = [];
     document.getElementById("listaAmigos").innerHTML = "";
 }
+
 
